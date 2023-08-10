@@ -14,7 +14,10 @@ export default function Home() {
         <div className="mt-2">Please donate to help us keep the tool online for everyone :)</div>
         <button
           className="bg-green-500 hover:bg-green-700 text-white font-bold p-2 rounded h-[40px] mt-4"
-          onClick={() => window.open("https://donate.stripe.com/5kAeWqezzdn6gtWaEF")}
+          onClick={() => {
+            window.location.href = 
+              "mailto:michael.gruen9@gmail.com?subject=I'M%20IN!";
+          }}
         >
           DUNK ON LEBRON
         </button>
