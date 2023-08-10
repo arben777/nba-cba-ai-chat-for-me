@@ -11,7 +11,7 @@ export default function Home() {
         <div className="text-[60px]">🏀</div>
         <div className="text-4xl font-bold">NBA CBA Chat</div>
         <div className="mt-3 text-xl">Use AI to ask questions about the new 676-page NBA CBA.</div>
-        <div className="mt-2">Please donate to help us keep the tool online for everyone :)</div>
+        <div className="mt-2">AI lets you ask any document questions with answers in seconds.</div>
         <button
           className="bg-green-500 hover:bg-green-700 text-white font-bold p-2 rounded h-[40px] mt-4"
           onClick={() => {
@@ -19,7 +19,7 @@ export default function Home() {
               "mailto:michael.gruen9@gmail.com?subject=I'M%20IN!";
           }}
         >
-          DUNK ON LEBRON
+          I WANT IN ON ELYSIUM
         </button>
       </div>
 
