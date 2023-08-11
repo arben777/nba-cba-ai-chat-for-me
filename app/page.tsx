@@ -14,9 +14,12 @@ export default function Home() {
         <div className="mt-2">AI lets you ask any document questions with answers in seconds.</div>
         <button
           className="bg-green-500 hover:bg-green-700 text-white font-bold p-2 rounded h-[40px] mt-4"
-          onClick={() => {
-            window.location.href = 
-              "mailto:michael.gruen9@gmail.com?subject=I'M%20IN!";
+          onClick={(e) => {
+            e.preventDefault();
+            window.open(
+              "mailto:michael.gruen9@gmail.com?subject=I'M%20IN!",
+              "_self"
+            );
           }}
         >
           I WANT IN ON ELYSIUM
